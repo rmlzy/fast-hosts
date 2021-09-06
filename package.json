@@ -41,7 +41,9 @@
   "homepage": "https://github.com/rmlzy/fast-figma",
   "keywords": [
     "fast-figma",
-    "lass"
+    "figma",
+    "加速",
+    "卡顿"
   ],
   "license": "MIT",
   "main": "cli.js",
