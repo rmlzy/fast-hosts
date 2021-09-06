@@ -1,7 +1,7 @@
 {
   "name": "fuck-figma",
   "description": "一键加速 Figma",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "rmlzy@outlook.com <rmlzy@outlook.com> (https://poppython.com)",
   "bin": {
     "fuck-figma": "cli.js"

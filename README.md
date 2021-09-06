@@ -21,6 +21,7 @@ $ yarn global add fuck-figma
 $ sudo fuck-figma
 ```
 
+核心代码来自 [Figma-Net-OK](https://github.com/Moonvy/Figma-Net-OK)
 
 ## License
 MIT
