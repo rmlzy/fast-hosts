@@ -15,7 +15,7 @@ $ yarn global add fuck-figma
 
 ## Usage
 
-由于要操作 `/etc/hosts` 文件, 此处需要 sudo 权限
+由于要操作 `/etc/hosts` 文件, 所以需要 sudo 权限
 
 ```bash
 $ sudo fuck-figma
