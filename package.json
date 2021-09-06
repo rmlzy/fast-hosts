@@ -1,0 +1,68 @@
+{
+  "name": "fuck-figma",
+  "description": "一键加速 Figma",
+  "version": "1.0.10",
+  "author": "rmlzy@outlook.com <rmlzy@outlook.com> (https://poppython.com)",
+  "bin": {
+    "fuck-figma": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/rmlzy/fuck-figma/issues",
+    "email": "rmlzy@outlook.com"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cac": "^6.7.3",
+    "fs-extra": "^10.0.0",
+    "nslookup": "^1.1.1",
+    "ping": "^0.4.1",
+    "update-notifier": "^5.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "ava": "latest",
+    "codecov": "latest",
+    "cross-env": "latest",
+    "eslint": "latest",
+    "eslint-config-xo-lass": "latest",
+    "fixpack": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "nyc": "latest",
+    "prettier": "^2.3.2",
+    "remark-cli": "latest",
+    "remark-preset-github": "latest",
+    "xo": "latest"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "homepage": "https://github.com/rmlzy/fuck-figma",
+  "keywords": [
+    "fuck-figma",
+    "lass"
+  ],
+  "license": "MIT",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmlzy/fuck-figma"
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "npm run lint:js && npm run lint:md",
+    "lint:js": "xo",
+    "lint:md": "remark . -qfo",
+    "pretest": "npm run lint",
+    "test": "cross-env NODE_ENV=test ava",
+    "test-coverage": "cross-env NODE_ENV=test nyc npm run test"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "extends": [
+      "xo-lass"
+    ]
+  }
+}
