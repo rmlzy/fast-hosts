@@ -3,10 +3,10 @@
 ## Installation
 
 ```bash
-$ npm i -g fuck-figma
+$ npm i -g fast-figma
 
 # or
-$ yarn global add fuck-figma
+$ yarn global add fast-figma
 ```
 
 ## Preview
@@ -18,7 +18,7 @@ $ yarn global add fuck-figma
 由于要操作 `/etc/hosts` 文件, 所以需要 sudo 权限
 
 ```bash
-$ sudo fuck-figma
+$ sudo fast-figma
 ```
 
 核心代码来自 [Figma-Net-OK](https://github.com/Moonvy/Figma-Net-OK)

@@ -6,7 +6,7 @@ const { findHosts } = require('./lib/util');
 const { writeHosts } = require('./lib/write-hosts');
 const pkg = require('./package');
 
-const cli = cac('fuck-figma');
+const cli = cac('fast-figma');
 
 cli.command('').action(async function () {
   console.log('🐵 开始寻找可用的 hosts...');

@@ -1,13 +1,13 @@
 {
-  "name": "fuck-figma",
+  "name": "fast-figma",
   "description": "一键加速 Figma",
   "version": "2.0.1",
   "author": "rmlzy@outlook.com <rmlzy@outlook.com> (https://poppython.com)",
   "bin": {
-    "fuck-figma": "cli.js"
+    "fast-figma": "cli.js"
   },
   "bugs": {
-    "url": "https://github.com/rmlzy/fuck-figma/issues",
+    "url": "https://github.com/rmlzy/fast-figma/issues",
     "email": "rmlzy@outlook.com"
   },
   "dependencies": {
@@ -38,16 +38,16 @@
   "engines": {
     "node": ">= 10"
   },
-  "homepage": "https://github.com/rmlzy/fuck-figma",
+  "homepage": "https://github.com/rmlzy/fast-figma",
   "keywords": [
-    "fuck-figma",
+    "fast-figma",
     "lass"
   ],
   "license": "MIT",
   "main": "cli.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rmlzy/fuck-figma"
+    "url": "https://github.com/rmlzy/fast-figma"
   },
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
