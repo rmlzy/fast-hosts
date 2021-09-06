@@ -9,21 +9,21 @@ const pkg = require('./package');
 const cli = cac('fuck-figma');
 
 cli.command('').action(async function () {
-  console.log('开始寻找可用的 hosts...');
+  console.log('🐵 开始寻找可用的 hosts...');
   const hosts = await findHosts();
 
-  if (hosts.length === 2) {
-    console.log('未找到可用的 hosts !');
+  if (hosts.length === 0) {
+    console.log('🙈 未找到可用的 hosts !');
     return;
   }
 
-  console.log('开始写入 hosts...');
+  console.log('🐵 开始写入 hosts...');
   const success = await writeHosts(hosts);
 
   if (success) {
-    console.log('写入成功 !');
+    console.log('🐒 写入成功 !');
   } else {
-    console.log('写入失败 !');
+    console.log('🙈 写入失败 !');
   }
 });
 
