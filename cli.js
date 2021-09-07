@@ -5,7 +5,7 @@ const update = require('update-notifier');
 const pkg = require('./package');
 const { bootstrap } = require('./lib/index');
 
-const cli = cac('fast-figma');
+const cli = cac('fast-hosts');
 
 cli.command('github', '一键加速 Github').action(function (params) {
   bootstrap('github');

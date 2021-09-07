@@ -1,13 +1,13 @@
 {
-  "name": "fast-figma",
-  "description": "一键加速 Figma",
-  "version": "3.0.0",
+  "name": "fast-hosts",
+  "description": "一键加速 Figma、Github",
+  "version": "1.0.0",
   "author": "rmlzy@outlook.com <rmlzy@outlook.com> (https://poppython.com)",
   "bin": {
-    "fast-figma": "cli.js"
+    "fast-hosts": "cli.js"
   },
   "bugs": {
-    "url": "https://github.com/rmlzy/fast-figma/issues",
+    "url": "https://github.com/rmlzy/fast-hosts/issues",
     "email": "rmlzy@outlook.com"
   },
   "dependencies": {
@@ -37,9 +37,9 @@
   "engines": {
     "node": ">= 10"
   },
-  "homepage": "https://github.com/rmlzy/fast-figma",
+  "homepage": "https://github.com/rmlzy/fast-hosts",
   "keywords": [
-    "fast-figma",
+    "fast-hosts",
     "figma",
     "加速",
     "卡顿"
@@ -48,7 +48,7 @@
   "main": "cli.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rmlzy/fast-figma"
+    "url": "https://github.com/rmlzy/fast-hosts"
   },
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",

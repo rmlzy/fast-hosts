@@ -1,24 +1,28 @@
-一键加速 Figma
+此工具用于自动寻找访问速度最快的 IP，并写入系统的 hosts 文件中。
 
-## Installation
+## 安装
 
 ```bash
-$ npm i -g fast-figma
+$ npm i -g fast-hosts
 
 # or
-$ yarn global add fast-figma
+$ yarn global add fast-hosts
 ```
 
-## Preview
+## 预览
 ![](./preview.png)
 
 
-## Usage
+## 如何使用
 
 由于要操作 `/etc/hosts` 文件, 所以需要 sudo 权限
 
 ```bash
-$ sudo fast-figma
+# 一键加速 Github
+$ sudo fast github
+
+# 一键加速 Figma
+$ sudo fast figma
 ```
 
 核心代码来自 [Figma-Net-OK](https://github.com/Moonvy/Figma-Net-OK)
