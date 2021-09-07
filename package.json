@@ -1,10 +1,10 @@
 {
   "name": "fast-hosts",
   "description": "一键加速 Figma、Github",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "rmlzy@outlook.com <rmlzy@outlook.com> (https://poppython.com)",
   "bin": {
-    "fast-hosts": "cli.js"
+    "fast": "cli.js"
   },
   "bugs": {
     "url": "https://github.com/rmlzy/fast-hosts/issues",
@@ -41,6 +41,7 @@
   "keywords": [
     "fast-hosts",
     "figma",
+    "github",
     "加速",
     "卡顿"
   ],
