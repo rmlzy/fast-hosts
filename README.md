@@ -25,6 +25,14 @@ $ sudo fast github
 $ sudo fast figma
 ```
 
+```bash
+# 清空 Github 配置
+$ sudo fast clear github
+
+# 清空 Figma 配置
+$ sudo fast clear figma
+```
+
 核心代码来自 [Figma-Net-OK](https://github.com/Moonvy/Figma-Net-OK)
 
 ## License

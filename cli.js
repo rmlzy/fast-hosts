@@ -3,16 +3,20 @@
 const cac = require('cac');
 const update = require('update-notifier');
 const pkg = require('./package');
-const { bootstrap } = require('./lib/index');
+const { fastAction, clearAction } = require('./lib/index');
 
 const cli = cac('fast-hosts');
 
 cli.command('github', '一键加速 Github').action(function (params) {
-  bootstrap('github');
+  fastAction('github');
 });
 
 cli.command('figma', '一键加速 Figma').action(function (params) {
-  bootstrap('figma');
+  fastAction('figma');
+});
+
+cli.command('clear <type>', '清空配置').action(function (type) {
+  clearAction(type);
 });
 
 cli.version(pkg.version);
