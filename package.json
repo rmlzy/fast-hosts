@@ -1,7 +1,7 @@
 {
   "name": "fast-figma",
   "description": "一键加速 Figma",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "author": "rmlzy@outlook.com <rmlzy@outlook.com> (https://poppython.com)",
   "bin": {
     "fast-figma": "cli.js"
@@ -13,9 +13,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cac": "^6.7.3",
-    "fs-extra": "^10.0.0",
+    "hostile": "^1.3.3",
     "nslookup": "^1.1.1",
-    "ping": "^0.4.1",
     "update-notifier": "^5.1.0"
   },
   "devDependencies": {
